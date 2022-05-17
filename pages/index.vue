@@ -41,5 +41,41 @@
         Explore Property
       </button>
     </div>
+    <div id="section-3" class="text-center">
+      <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">
+        Property Listing
+      </h2>
+      <p class="text-gray-500 font-light text-xl my-10 px-20">
+        If you are looking to latest property in KL for Investment or Ownstay
+      </p>
+      <div class="grid grid-cols-2 px-40 gap-5">
+        <div id="left-item-column">
+          <Item
+            image="crispy-chicken.jpg"
+            title="Property In Kuala Lumpur"
+            description="get the cheapest property in town"
+            price="RM300,000"
+          /><Item
+            image="crispy-chicken.jpg"
+            title="Property In Petaling Jaya"
+            description="get the cheapest property in town"
+            price="RM200,000"
+          />
+        </div>
+        <div id="right-item-column">
+          <Item
+            image="crispy-chicken.jpg"
+            title="Property In Johor Bahru"
+            description="get the cheapest property in town"
+            price="RM200,000"
+          /><Item
+            image="crispy-chicken.jpg"
+            title="Property In Singapore"
+            description="get the cheapest property in town"
+            price="RM1,000,000"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
