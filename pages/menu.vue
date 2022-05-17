@@ -18,7 +18,7 @@
         Our Menu
       </h1>
     </div>
-    <div id="items" class="grid grid-cols-3 gap-x-5 gap-y-16 mt-10 mx-20">
+    <div id="item" class="grid grid-cols-3 gap-x-5 gap-y-16 mt-10 mx-20">
       <MenuItem v-for="b in items" :key="b.name" :item="b" />
     </div>
   </div>
@@ -30,7 +30,7 @@ export default {
     return { items: [] };
   },
   mounted() {
-    this.$axios.get('item.json').then((response) => {
+    this.$axios.get('items.json').then((response) => {
       this.items = response.data.kualalumpur;
     });
   },
